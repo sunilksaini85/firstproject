@@ -14,7 +14,7 @@ class Atm:
             4. enter 4 to check balance
             5. enter 5 to exit
             '''"\n\n\n")
-        print() 
+       
         if user_input=="1":
             self.Create_Pin()
         elif user_input=="2":
