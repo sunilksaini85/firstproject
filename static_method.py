@@ -5,6 +5,7 @@ class Atm:
         self.__pin = ""      #  Instance variable
         self.__balance = 0
         self.sno = Atm.__counter
+        
         self.sno = Atm.__counter+1
         print(self.sno)
 
@@ -52,3 +53,5 @@ print()
 print(hdfc.get_pin())
 
 
+# import nltk
+# nltk.download('punkt')
